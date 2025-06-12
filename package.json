@@ -1,0 +1,24 @@
+{
+	"name": "@apcmncs/dous",
+	"version": "0.0.1",
+	"description": "Dous is a lightweight and flexible JavaScript templating engine designed for seamless string interpolation with custom placeholder syntax. It enables developers to create dynamic templates using a simple, intuitive format, supporting both direct property access and function calls with dynamic arguments.",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "tsup --watch",
+		"build": "tsup"
+	},
+	"keywords": [],
+	"author": "apcmncs",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/apcmncs/dous"
+	},
+	"devDependencies": {
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3"
+	}
+}
