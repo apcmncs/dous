@@ -15,7 +15,7 @@ npm install @apcmncs/dous
 ## Usage
 
 ```js
-const { parseTemplate, parseTemplateObject } = require("../dist/index");
+const { parseTemplate, parseTemplateObject } = require("@apcmncs/dous");
 
 const data = {
 	firstname: "Aphichat",
