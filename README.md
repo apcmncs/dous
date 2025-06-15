@@ -15,7 +15,7 @@ npm install @apcmncs/dous
 ## Usage
 
 ```js
-const { parseTemplate, parseTemplateObject } = require("@apcmncs/dous");
+const { parseTemplate, parseTemplateObject } = require("../dist/index");
 
 const data = {
 	firstname: "Aphichat",
@@ -24,7 +24,7 @@ const data = {
 };
 
 const str = "{firstname} {lastname}";
-const obj = { sum: "{sum[15,15]}" };
+const obj = { sum: "{sum[15, 15]}" };
 
 console.log(parseTemplate(str, data)); // => Aphichat Maneechansuk
 console.log(parseTemplateObject(obj, data)); // => { sum: "30" }
