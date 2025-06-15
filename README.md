@@ -1,6 +1,6 @@
 # Dous - SafeTemplateParser
 
-Dous is a lightweight and flexible JavaScript templating engine designed for seamless string interpolation with custom placeholder syntax. It enables developers to create dynamic templates using a simple, intuitive format, supporting both direct property access and function calls with dynamic arguments.
+A lightweight and flexible JavaScript templating engine designed for seamless string interpolation with custom placeholder syntax. It enables developers to create dynamic templates using a simple, intuitive format, supporting both direct property access and function calls with dynamic arguments.
 
 ---
 
