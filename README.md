@@ -27,5 +27,5 @@ const str = "{firstname} {lastname}";
 const obj = { sum: "{sum[15, 15]}" };
 
 console.log(parseTemplate(str, data)); // => Aphichat Maneechansuk
-console.log(parseTemplateObject(obj, data)); // => { sum: "30" }
+console.log(parseTemplate(obj, data)); // => { sum: "30" }
 ```
