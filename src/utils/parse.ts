@@ -19,8 +19,7 @@ function transform(input: string, context: Context): string {
 						return JSON.stringify(parse(arg, context));
 					}
 
-					if (/^\d+(\.\d+)?$/.test(arg)) return arg;
-					if (/^(['"`]).*?\1$/.test(arg)) return arg;
+					if (/^\d+(\.\d+)?$/.test(arg)) return Number(arg);
 
 					return JSON.stringify(arg);
 				});

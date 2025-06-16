@@ -15,12 +15,12 @@ npm install @apcmncs/dous
 ## Usage
 
 ```js
-const { parseTemplate, parseTemplateObject } = require("@apcmncs/dous");
+const { parseTemplate } = require("@apcmncs/dous");
 
 const data = {
 	firstname: "Aphichat",
 	lastname: "Maneechansuk",
-	sum: (a, b) => Number(a) + Number(b),
+	sum: (a, b) => a + b,
 };
 
 const str = "{firstname} {lastname}";
