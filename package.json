@@ -17,6 +17,7 @@
 		"url": "https://github.com/apcmncs/dous"
 	},
 	"devDependencies": {
+		"changelogithub": "^13.15.0",
 		"tsup": "^8.5.0",
 		"typescript": "^5.8.3"
 	}
