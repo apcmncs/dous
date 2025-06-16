@@ -46,8 +46,8 @@ jobs:
           fi
 
       - name: Build
-        run: pnpm build
         if: steps.check.outputs.version_changed == 'true'
+        run: pnpm build
 
       - name: Publish
         if: steps.check.outputs.version_changed == 'true'
